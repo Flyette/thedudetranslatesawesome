@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "plugins": ["@react-native-voice/voice"],
+    "name": "TheDudeTranlateAwesome",
+    "slug": "TheDudeTranlateAwesome",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "io.expo.Apptshirt"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "io.expo.Apptshirt"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
